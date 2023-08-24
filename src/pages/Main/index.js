@@ -29,6 +29,7 @@ function Main() {
             :
             <img
               src={ganhou}
+              alt=''
             />
         }
       </div>

@@ -47,6 +47,7 @@ function Card({ card, stateCards, setStateCards }) {
             className='img-card'
             key={card.id}
             src={card.turned ? card.image : cardBack}
+            alt=''
         />
     )
 }

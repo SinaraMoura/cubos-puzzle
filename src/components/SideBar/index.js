@@ -12,7 +12,7 @@ function Sidebar({ cards, setStateCards }) {
     return (
         <div className="sidebar">
             <div className='puzzle'>
-                <img src={logo} />
+                <img src={logo} alt='' />
                 <strong>CUBOS PUZZLE</strong>
             </div>
             <button onClick={() => handleReset()}>RESET</button>
